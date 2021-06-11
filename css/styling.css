@@ -2,13 +2,15 @@
 h1,h2,h3,h4,h5 {
     margin: 0 auto;
     text-align: center;
-    height: 100%;
+    font-family: Roboto;
+    font-weight: bolder;
 }
 
 body {
     min-height: 100vh;
     margin:0 auto;
     position: relative;
+    font-family: "Open Sans";
 }
 
 p { 
@@ -19,14 +21,15 @@ p {
 h1 {
     font-size: 440%;
     margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 h3 { 
-    font-size: 170%;
+    font-size: 180%;
 }
 
 h4 { 
-    font-size: 150%;
+    font-size: 200%;
 }
 
 
@@ -62,7 +65,7 @@ header {
     width: 50%;
 }
 
-
+/* Could've made a simple class, but wanted to try it that way, same goes for footer image */
 header .div2 img {
     width: 30%;
 }
@@ -83,6 +86,8 @@ nav a {
     padding: 20px;
     text-decoration: none;
     font-size: 30px;
+    font-family: Roboto;
+    font-weight: bolder;
 }
 
 .nav-right {
@@ -112,10 +117,9 @@ div img {
 
 #lead-article img { 
     text-align: center;
-    width: 400px;
+    width: 85%;
+    height: 300px;
 }
-
-
 
 
 /* footer stuff */
@@ -128,7 +132,7 @@ footer {
     bottom: 0;
     left: 0;
     padding: 1.25%;
-    font-size: 120%;
+    font-size: 95%;
 } 
 
 footer img {
