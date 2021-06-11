@@ -1,24 +1,28 @@
 /* basic styling */
-h1,h2,h3,h4,h5 {
+h1,h2,h3,h4 {
     margin: 0 auto;
+    padding: 0;
     text-align: center;
+    vertical-align: center;   
     font-family: Roboto;
     font-weight: bolder;
 }
 
 body {
     margin:0 auto;
+    padding: 0;
     position: relative;
     font-family: "Open Sans";
-    height: 100%;
 }
 
 
 .main-container {
     overflow: hidden;
-    display: block;
-    position: relative;   
-    min-height: 100vh; /* will cover the 100% of viewport */
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    min-height: 100vh; /* covers 100% of viewport */
     padding-bottom: 10%; /* height of footer */
    }
 
@@ -28,13 +32,14 @@ p {
 }
 
 h1 {
-    font-size: 440%;
+    font-size: 500%;
     margin-top: 2%;
     margin-bottom: 2%;
+    max-width: 30vw;
 }
 
 h3 { 
-    font-size: 160%;
+    font-size: 180%;
 }
 
 h4 { 
@@ -46,36 +51,38 @@ h4 {
 /* header styling */
 header {
     background-color: #cabbb7;
-    height: 150px;
+    height: 15vh;
     width: 100%;
     text-align: center;
     margin: 0 auto;
+    padding: 1vw 1vh;
     text-align: center;
-    vertical-align: middle;    
-
+    vertical-align: middle; 
 }
 
-.div1 {
+.divheadtext {
     float: left;
     padding: 0;
-    margin: 3% 0 0 0; /* appreantly best way to center vertically without flex */
+    margin: 3% auto 0 auto; /* appreantly best way to center vertically without flex */
     text-align: center; /* probably just fluf */
     vertical-align: middle; /* probably just fluf */
     width: 50%;
-
+    height: auto;
 }
 
-.div2 {
+.divheadimg {
     float: right;
     padding: 0;
-    margin: 1% 0 0 0; /* appreantly best way to center vertically without flex */
-    text-align: center; /* probably just fluf */
-    vertical-align: middle; /* probably just fluf */
+    margin: 1% auto 0 auto; /* appreantly best way to center vertically without flex */
+    text-align: center; /* probably just fluff, but added just in case */
+    vertical-align: middle; /* probably just fluff, but added just in case */
     width: 50%;
+    height: auto;
+
 }
 
 /* Could've made a simple class, but wanted to try it that way, same goes for footer image */
-header .div2 img {
+header .divheadimg img {
     width: 30%;
 }
 
@@ -106,7 +113,7 @@ ul li a {
     color: #ffffff;
     text-decoration: none;
     margin: 0;
-    padding: 15px 20px;
+    padding: 1vw 2vh;
     font-size: 200%;
     font-family: Roboto;
     font-weight: bolder;   
@@ -116,7 +123,7 @@ ul li a:hover {
     background-color: #cabbb7;
 }
     
-    /* #active-tab { background-color: #c88684; }   */
+/* #active-tab { background-color: #c88684; }   */
 
 
 /*#active-tab { background-color: #c88684; }*/
@@ -154,21 +161,56 @@ nav a:hover {
 
 
 /* main article styling */
-#blog-wrapper {
+#blog-wrapper, #second-wrapper {
+    position: relative;
     text-align: center;
+    /* height: 30vh; testing only */
+    width: 75%;
+    margin: 0 auto;
+    padding: 1%;    
+    text-align: center;
+    vertical-align: middle;    
 }
 
-div img { 
+
+.divarticle {
+    float: left;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center; /* probably just fluff, but added just in case */
+    vertical-align: middle; /* probably just fluff, but added just in case */
     width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    height: auto;
+    word-wrap: break-word;
+}
+
+
+/*
+not needed anymore!!!
+#lead-article {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+}*/
+
+div[class="divarticle"] h3 {
+    max-width: 23vw;
+}
+
+
+div[id="blog-wrapper"] img {
+    width: 52vw;
+    height: 26vh;
+    margin: 0 auto;
     display: block;
 } 
 
-#lead-article img { 
-    text-align: center;
-    width: 85%;
-    height: 300px;
+div[id="second-wrapper"] img { 
+    width: 25vw;
+    height: auto;
+    margin: 0 auto;
+    display: block;
 }
 
 
@@ -177,9 +219,10 @@ footer {
     background-color: #cabbb7;
     text-align: center;
     position: absolute;
+    margin; 0;
     bottom: 0;
     width: 100%;   
-    padding: 1.25%;
+    padding: 1%;
     font-size: 95%;
 } 
 
