@@ -1,0 +1,63 @@
+/* basic styling */
+h1,h2,h3,h4,h5 {
+    margin: 0;
+    text-align: center;
+}
+p {
+    margin: 0;
+}
+
+header {
+    background-color: #cabbb7;
+}
+
+
+#blog-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lead-article {
+    width= 30%;
+    margin: 0 auto;   
+}
+
+.side-articles {
+    width: 60%;
+    margin: 0 auto; 
+}
+
+/* navigation styling */
+nav {
+    background-color: #c65252;
+    overflow-x: hidden;
+    color: #ffffff;
+    font-size: 25px;
+  }
+  
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+  }
+  
+nav a:hover {
+    font-style: oblique;
+  }
+
+/* footer stuff */
+footer {
+    background-color: #cabbb7;
+    text-align: center;
+}
+
+
+.footer-logo {
+    width: 10%;
+    margin: 0 auto;
+}
+
+.header-logo {
+    width: 20%;
+    float: right;
+}
