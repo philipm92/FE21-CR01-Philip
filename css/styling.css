@@ -7,11 +7,20 @@ h1,h2,h3,h4,h5 {
 }
 
 body {
-    min-height: 100vh;
     margin:0 auto;
     position: relative;
     font-family: "Open Sans";
+    height: 100%;
 }
+
+
+.main-container {
+    overflow: hidden;
+    display: block;
+    position: relative;   
+    min-height: 100vh; /* will cover the 100% of viewport */
+    padding-bottom: 10%; /* height of footer */
+   }
 
 p { 
     margin: 0;
@@ -126,11 +135,9 @@ div img {
 footer {
     background-color: #cabbb7;
     text-align: center;
-    width: 100%;
     position: absolute;
-    right: 0;
     bottom: 0;
-    left: 0;
+    width: 100%;   
     padding: 1.25%;
     font-size: 95%;
 } 
