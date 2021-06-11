@@ -34,7 +34,7 @@ h1 {
 }
 
 h3 { 
-    font-size: 180%;
+    font-size: 160%;
 }
 
 h4 { 
@@ -82,6 +82,47 @@ header .div2 img {
 
 /* navigation styling */
 nav {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10% 0 0;  
+    overflow: hidden;
+    background-color: #c65252; 
+}
+    
+ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+    
+ul li a {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0;
+    padding: 15px 20px;
+    font-size: 200%;
+    font-family: Roboto;
+    font-weight: bolder;   
+}
+    
+ul li a:hover { 
+    background-color: #cabbb7;
+}
+    
+    /* #active-tab { background-color: #c88684; }   */
+
+
+/*#active-tab { background-color: #c88684; }*/
+
+/* Old navigation based on a nav+div ONLY
+nav {
     overflow: hidden;
     width: 100%;
     background-color: #c65252;
@@ -94,7 +135,7 @@ nav a {
     text-align: center;
     padding: 20px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 200%;
     font-family: Roboto;
     font-weight: bolder;
 }
@@ -107,9 +148,9 @@ nav a {
 nav a:hover { 
     background-color: #cabbb7; 
 }
+*/
 
-/*#active-tab { background-color: #c88684; }*/
-  
+
 
 
 /* main article styling */
