@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styling.css">
+    <link rel="stylesheet" type="text/css" href="css/otherstyles.css">
+    <!-- Adding "Open Sans Regular 400" from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- Adding "Roboto Regular 400" from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Code Review 1 - Blog</title>
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <span class="divheadtext">
+                <h4>Philip Mahlberg - Future Full Stack Web Developer</h4>
+            </span>
+            <span class="divheadimg">
+                <img src="img/logo.png" alt="Header Logo" />   
+            </span>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.htm">Home</a></li>
+                <li><a href="#blog"  id="active-tab">Blog</a></li>
+                <li><a href="about.htm">About me</a></li>
+                <li><a href="contact.htm">Contact</a></li>
+            </ul>
+        </nav>       
+
+        <h1>This is the blog page!!!</h1>
+        <h2>Browser Isolation!</h2>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9z3_Em4S99g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <article>
+            <p>
+                He uses one browser to login to Google and use only Google services (GMail, Google Calendar, etc.), a separate browser to login to Facebook and use only Facebook, and a third browser for everything else.
+            </p>
+            <p>
+                I do the same thing, but I isolate more than just Google and Facebook. There’s an easier way to do it. You can use separate browser profiles. FIrefox has this feature built into the UI. With Chromium you can use the --user-data-dir command line option to specify a new directory for it to create a fresh profile in.
+            </p>
+            <p>
+                It’s a smart technique. I recommend it. You can’t keep the big spying companies from fingerprinting your browser, but you can keep them from directly associating it with one of their accounts where they have lots of personal information about you.
+            </p>
+            <p>
+                They will still mark a loose association with all activity coming from the same IP address though. A friend of mine lives with some relatives who have young children. He sees Google ads for children’s products when he browses sites on his own PC.       
+            </p>
+        </article>
+    </div>    
+    <footer>
+        <img src="img/logo.png" alt="Footer Logo" />
+        <p><strong>&copy; Philip- CodeFactory 2021</strong></p>
+    </footer>
+</body>
+</html>

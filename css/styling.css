@@ -44,6 +44,7 @@ h3 {
 
 h4 { 
     font-size: 200%;
+    text-align: right;
 }
 
 
@@ -61,13 +62,21 @@ header {
     vertical-align: middle; 
 }
 
+#testid {
+    float: left;
+    width: 20%;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+}
+
 .divheadtext {
     float: left;
     padding: 0;
     margin: 3% auto 0 auto; /* appreantly best way to center vertically without flex */
-    text-align: center; /* probably just fluf */
+    text-align: right; /* probably just fluf */
     vertical-align: middle; /* probably just fluf */
-    width: 50%;
+    width: 40%;
     height: auto;
 }
 
@@ -77,14 +86,15 @@ header {
     margin: 1% auto 0 auto; /* appreantly best way to center vertically without flex */
     text-align: center; /* probably just fluff, but added just in case */
     vertical-align: middle; /* probably just fluff, but added just in case */
-    width: 50%;
+    width: 40%;
     height: auto;
 
 }
 
 /* Could've made a simple class, but wanted to try it that way, same goes for footer image */
 header .divheadimg img {
-    width: 30%;
+    width: 40%;
+    height: auto;
 }
 
 
@@ -124,7 +134,7 @@ ul li a:hover {
     background-color: #cabbb7;
 }
     
-/* #active-tab { background-color: #c88684; }   */
+#active-tab { background-color: #c88684; }
 
 
 /*#active-tab { background-color: #c88684; }*/

@@ -1,0 +1,12 @@
+article {
+   text-align: center; 
+   margin: 0 auto;
+   padding: 0;
+   width: 50%;
+   font-weight: bolder;
+}
+
+iframe {
+    margin: 0 auto;
+    display:block;
+}
