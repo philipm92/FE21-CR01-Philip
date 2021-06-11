@@ -3,61 +3,88 @@ h1,h2,h3,h4,h5 {
     margin: 0;
     text-align: center;
 }
-p {
-    margin: 0;
-}
 
-header {
+/* Yes I know bad practice, but feels kinda useless to break it apart for only one line.
+Plus the machine code doesn't care */
+p { margin: 0; }
+
+h1 { font-size: 440%;}
+
+h4 { font-size: 150%; }
+
+h3 { font-size: 110%; }
+
+
+
+/* header styling */
+.main-header {
     background-color: #cabbb7;
+    height: 150px;
+    text-align: center;
+}
+
+.header-logo {
+    width: 15%;
+    float: right;
 }
 
 
-#blog-wrapper {
+/* navigation styling */
+nav {
+    text-align: center;
+    padding: 10px;
+}
+.main-nav {
+    background-color: #c65252;
+    color: #ffffff;
+    font-size: 30px;
+    padding-left: 0px;
+    width: 100%;
+    margin-bottom: 2%;
+  }
+  
+.main-nav a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+  
+.main-nav a:hover {
+    font-weight: bolder;
+}
+
+
+/* main article styling */
+div > img {
+    width: 20%;
+ } 
+
+ #blog-wrapper {
     margin-left: auto;
     margin-right: auto;
 }
 
 #lead-article {
-    width= 30%;
     margin: 0 auto;   
 }
 
 .side-articles {
-    width: 60%;
     margin: 0 auto; 
 }
 
-/* navigation styling */
-nav {
-    background-color: #c65252;
-    overflow-x: hidden;
-    color: #ffffff;
-    font-size: 25px;
-  }
-  
-nav a {
-    text-decoration: none;
-    color: #ffffff;
-    display: block;
-  }
-  
-nav a:hover {
-    font-style: oblique;
-  }
+
+
 
 /* footer stuff */
 footer {
     background-color: #cabbb7;
     text-align: center;
+    padding: 1.25%;
 }
 
 
 .footer-logo {
-    width: 10%;
+    width: 8%;
     margin: 0 auto;
 }
 
-.header-logo {
-    width: 20%;
-    float: right;
-}
