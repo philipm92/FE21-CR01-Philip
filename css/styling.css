@@ -1,24 +1,33 @@
 /* basic styling */
 h1,h2,h3,h4,h5 {
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
     height: 100%;
 }
 
 body {
     min-height: 100vh;
+    margin:0 auto;
     position: relative;
 }
 
-/* Yes I know bad practice, but feels kinda useless to break it apart for only one line.
-Plus the machine code doesn't care */
-p { margin: 0; }
+p { 
+    margin: 0;
+    padding: 1%;
+}
 
-h1 { font-size: 440%;}
+h1 {
+    font-size: 440%;
+    margin-top: 2%;
+}
 
-h4 { font-size: 150%; }
+h3 { 
+    font-size: 170%;
+}
 
-h3 { font-size: 130%; }
+h4 { 
+    font-size: 150%;
+}
 
 
 
@@ -26,11 +35,36 @@ h3 { font-size: 130%; }
 header {
     background-color: #cabbb7;
     height: 150px;
+    width: 100%;
     text-align: center;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;    
+
 }
 
-.header-logo {
-    width: 15%;
+.div1 {
+    float: left;
+    padding: 0;
+    margin: 3% 0 0 0; /* appreantly best way to center vertically without flex */
+    text-align: center; /* probably just fluf */
+    vertical-align: middle; /* probably just fluf */
+    width: 50%;
+
+}
+
+.div2 {
+    float: right;
+    padding: 0;
+    margin: 1% 0 0 0; /* appreantly best way to center vertically without flex */
+    text-align: center; /* probably just fluf */
+    vertical-align: middle; /* probably just fluf */
+    width: 50%;
+}
+
+
+header .div2 img {
+    width: 30%;
 }
 
 
@@ -58,7 +92,6 @@ nav a {
   
 nav a:hover { 
     background-color: #cabbb7; 
-    font-weight: bolder;
 }
 
 /*#active-tab { background-color: #c88684; }*/
@@ -68,7 +101,6 @@ nav a:hover {
 /* main article styling */
 #blog-wrapper {
     text-align: center;
-    /*border: 5px solid black;*/ /* testing*/
 }
 
 div img { 
@@ -99,8 +131,8 @@ footer {
     font-size: 120%;
 } 
 
-.footer-logo {
+footer img {
     width: 10%;
-    margin: 0 auto;
+    margin: 0.2% auto;
 }
 
