@@ -35,6 +35,10 @@ article p {
     padding: 0;
 }
 
+.main-container .sourcelink:hover, .main-container p a:hover, .main-container ol li a:hover, .main-container h3 a:hover {
+    font-style: oblique;
+}
+
 form {
     box-shadow: 0.2vw 0.2vh 10px #888;
     margin: 0 auto;
