@@ -17,14 +17,10 @@ body {
     font-family: "Open Sans";
 }
 
-p, a { 
+p { 
     margin: 0;
     padding: 1%;
-    font-size: 1.2em;
-}
-
-a {
-    padding: 0;
+    font-size: 1.25em;
 }
 
 h1 {

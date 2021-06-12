@@ -18,24 +18,15 @@ ol {
 ol > li {
     text-align: left;
     margin: 0 auto;
+    margin: 0;
+    padding: 0;
+    font-size: 1.25em;    
 }
 
 article p {
     text-align: left;
 }
 
-li { 
-    margin: 0;
-    padding: 0;
-    font-size: 1.25em;
-}
-
-h3 > a:hover {
-    font-style: oblique;
-}
-article > a:hover {
-    font-style: oblique;
-}
 
 form {
     box-shadow: 0.2vw 0.2vh 10px #888;
