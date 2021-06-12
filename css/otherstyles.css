@@ -1,3 +1,4 @@
+/* basic formating */
 article, br, section {
    text-align: center; 
    margin: 0 auto;
@@ -11,10 +12,12 @@ br, section {
     width: 100%;
 }
 
+/* make sure the ordered list is indented */
 ol {
     padding-left: 2vw;
 }
 
+/* make sure to only use the ol, since ul is used for the nav bar */
 ol > li {
     text-align: left;
     margin: 0 auto;
@@ -27,7 +30,7 @@ article p {
     text-align: left;
 }
 
-
+/* center source paragraph for looks, remove margin and padding for good measure? */
 .sourcelink {
     text-align: center;
     font-size: 1.6em;
@@ -35,10 +38,14 @@ article p {
     padding: 0;
 }
 
+/* make sure to only affect links that aren't part of the nav bar */
 .main-container .sourcelink:hover, .main-container p a:hover, .main-container ol li a:hover, .main-container h3 a:hover {
     font-style: oblique;
 }
 
+/* add a shadow to the form, center it and decrease it's width responsive!
+As well as some other form formatting.
+*/
 form {
     box-shadow: 0.2vw 0.2vh 10px #888;
     margin: 0 auto;
@@ -65,6 +72,7 @@ textarea {
     width: 100%;
 }
 
+/* move the "button" down and increase it's padding */
 input[type="submit"] {
     margin: 0.5% 0 0 0;
     padding: 0.1em;
@@ -75,11 +83,13 @@ input[type="submit"] {
     margin: -0.1em 0 -0.5em 0;
 }
 
+/* some stuff for the video */
 iframe {
     margin: 0 auto;
     display: block;
 }
 
+/* basic image resize */
 img {
     width: 30vw;
     height: auto;
