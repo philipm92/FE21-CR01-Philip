@@ -16,7 +16,8 @@
     <title>Code Review 1 - Contact</title>
 </head>
 <body>
-    <div class="main-container">
+    <div class="main-container"> <!-- div as main container needed to make footer always at bottom -->
+        <!-- Header part with two spans and text + img element inside -->
         <header>
             <span class="divheadtext">
                 <h4>Philip Mahlberg - Future Full Stack Web Developer</h4>
@@ -26,6 +27,7 @@
             </span>
         </header>
 
+        <!-- new navigation bar made with ul and nav element -->
         <nav>
             <ul>
                 <li><a href="index.htm">Home</a></li>
@@ -38,6 +40,7 @@
         <h1>This is the contact page!!!</h1>
         <h2>Please use the form below to contact me!</h2>
 
+        <!--Creates contact me form and headlines above -->
         <form action="action_page.php">
             <section>
                     <input type="text" name="name" placeholder="Your First Name..." required>
@@ -48,7 +51,9 @@
             <h3 id="formheadline">Write your message here:</h3><br/>
             <textarea name="message" cols="50" rows="8" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet lectus proin nibh nisl condimentum id. Sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque eu."></textarea>
             <br /><input type="submit" value="Contact me">       
-    </div>    
+    </div>
+    
+    <!--Create footer with img + text -->
     <footer>
         <img src="img/logo.png" alt="Footer Logo" />
         <p><strong>&copy; Philip- CodeFactory 2021</strong></p>
