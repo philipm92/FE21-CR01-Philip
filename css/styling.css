@@ -11,35 +11,37 @@ h1,h2,h3,h4 {
 body {
     margin:0 auto;
     padding: 0;
+    text-align: center;
+    vertical-align: center;    
     position: relative;
     font-family: "Open Sans";
 }
 
-
-.main-container {
-    overflow: hidden;
-    display: inline-block;
-    position: relative;
-    margin: 0 auto;
-    padding: 0;
-    min-height: 100vh; /* covers 100% of viewport */
-    padding-bottom: 10%; /* height of footer */
-   }
-
 p { 
     margin: 0;
     padding: 1%;
+    font-size: 125%;
 }
+
 
 h1 {
     font-size: 500%;
-    margin-top: 2%;
     margin-bottom: 2%;
     max-width: 30vw;
 }
 
+h2 {
+    font-size: 250%;
+    margin: 0 0 1% 0;
+    color: #666666;
+    /* top right bottom left */
+}
+
+
 h3 { 
     font-size: 180%;
+    font-weight: bolder;
+    margin-top: 1%;
 }
 
 h4 { 
@@ -47,7 +49,15 @@ h4 {
     text-align: right;
 }
 
-
+.main-container {
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    min-height: 90vh;
+    padding-bottom: 10%; /* height of footer */
+}
 
 /* header styling */
 header {
@@ -56,7 +66,6 @@ header {
     width: 100%;
     text-align: center;
     margin: 0 auto;
-    /* top right bottom left */
     padding: 1vh 1vw;
     text-align: center;
     vertical-align: middle; 
@@ -102,6 +111,7 @@ header .divheadimg img {
 nav {
     text-align: right;
     margin: 0;
+    margin-bottom: 2%;
     padding: 0;
 }
 
@@ -192,7 +202,6 @@ nav a:hover {
     vertical-align: middle; /* probably just fluff, but added just in case */
     width: 50%;
     height: auto;
-    word-wrap: break-word;
 }
 
 
@@ -211,14 +220,14 @@ div[class="divarticle"] h3 {
 
 
 div[id="blog-wrapper"] img {
-    width: 52vw;
+    width: 48vw;
     height: 26vh;
     margin: 0 auto;
     display: block;
 } 
 
 div[id="second-wrapper"] img { 
-    width: 25vw;
+    width: 21vw;
     height: auto;
     margin: 0 auto;
     display: block;
