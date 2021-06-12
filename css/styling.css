@@ -17,12 +17,15 @@ body {
     font-family: "Open Sans";
 }
 
-p { 
+p, a { 
     margin: 0;
     padding: 1%;
-    font-size: 125%;
+    font-size: 1.2em;
 }
 
+a {
+    padding: 0;
+}
 
 h1 {
     font-size: 500%;
